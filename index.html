@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="name">Patate</h1>
+        
+        <div class="form">
+          <div class="wrapper">
+            <!-- Nom ------------------------------------>
+            <h2 id="nom">Nom</h2>
+            <input type="text" class="txt-name" value="patate">
+            
+            <!-- Yeux ----------------------------------->
+            <h2 id="yeux">Yeux</h2>
+            <label>
+              <input type="radio" name="eyes" value="eye-1.png" checked>
+              <img src="https://ex.smnarnold.com/formulaires/patate/eye-1.png">
+            </label>
+            <label>
+              <input type="radio" name="eyes" value="eye-2.png">
+              <img src="https://ex.smnarnold.com/formulaires/patate/eye-2.png">
+            </label>
+            <label>
+              <input type="radio" name="eyes" value="eye-3.png">
+              <img src="https://ex.smnarnold.com/formulaires/patate/eye-3.png">
+            </label>
+      
+            <!-- Moustache ------------------------------->
+            <h2 id="moustache">Moustache</h2>
+            <label>
+              <input type="checkbox" class="chb-mustache">
+              Oh que oui!
+            </label>
+      
+            <!-- Bouche ---------------------------------->
+            <h2 id="bouches">Bouche</h2>
+            <select name="mouth" id="sel-mouth">
+              <option value="mouth-1.png">Bouche 1</option>
+              <option value="mouth-2.png">Bouche 2</option>
+              <option value="mouth-3.png">Bouche 3</option>
+            </select>
+      
+            <!-- Souliers ---------------------------------->
+            <h2 id="souliers">Souliers</h2>
+            <input type="color" value="#27d436" class="col-shoes">
+          </div>
+        </div>
+        
+        <!-- Patate ---------------------------------->
+        <div class="potato">
+          <img src="https://ex.smnarnold.com/formulaires/patate/corp.png" class="body">
+          
+          <img src="https://ex.smnarnold.com/formulaires/patate/mouth-1.png" class="piece mouth" id="bouchesImg">
+          <img src="https://ex.smnarnold.com/formulaires/patate/mustache.png" class="piece mustache" id="moustacheImg">
+          <img src="https://ex.smnarnold.com/formulaires/patate/eye-1.png" class="piece eye" id="yeuxImg">
+        </div>
+      </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
